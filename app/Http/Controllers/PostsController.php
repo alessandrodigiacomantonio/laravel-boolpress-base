@@ -12,7 +12,7 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($id = null)
+    public function index()
     {
       $posts = Post::all();
       return view('posts.index', compact('posts'));
@@ -45,9 +45,9 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Post $post)
     {
-        //
+      return view('posts.show', compact('post'));
     }
 
     /**
