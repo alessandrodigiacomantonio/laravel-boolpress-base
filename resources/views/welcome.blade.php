@@ -80,9 +80,9 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+                <a href="{{ route('posts.index') }}"><div class="title m-b-md">
+                      Boolpress
+                  </div></a>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
