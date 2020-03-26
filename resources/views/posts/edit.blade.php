@@ -1,4 +1,4 @@
-@extends('posts.layout')
+@extends('layout')
 @section('main')
   <form style="display:flex; flex-direction: column;" class="main__form" action="{{ route('posts.update', $id) }}" method="post">
     @csrf

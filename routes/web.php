@@ -18,3 +18,7 @@ Route::get('/', function () {
 });
 
 Route::resource('/posts', 'PostsController');
+
+Route::resource('/photos', 'PhotosController');
+
+Route::resource('/users', 'UsersController');

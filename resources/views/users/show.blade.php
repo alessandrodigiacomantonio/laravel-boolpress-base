@@ -1,4 +1,4 @@
 @extends('layout')
 @section('main')
-  @dd($post)
+  @dd($user)
 @endsection

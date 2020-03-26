@@ -1,4 +1,4 @@
-@extends('posts.layout')
+@extends('layout')
 @section('main')
   @dd($posts)
 @endsection
