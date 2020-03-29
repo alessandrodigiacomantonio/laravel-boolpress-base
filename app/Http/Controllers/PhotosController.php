@@ -14,7 +14,8 @@ class PhotosController extends Controller
      */
     public function index()
     {
-      $photos = Photo::all();
+      $photos = Photo::first();
+      dd($photos->usersTable());
       return view('photos.index', compact('photos'));
     }
 
